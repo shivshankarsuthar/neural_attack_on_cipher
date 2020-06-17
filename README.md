@@ -1,4 +1,6 @@
-Three main files are here
+Three main files are here.
+
+Run the code in following order.
 
 1. spn_cipher.py - This will encrypt a plaintext into a spn cipher. Block size for input is 16 bit and key size is also 16 bit. No of rounds will be 4.
 
