@@ -65,8 +65,9 @@ if __name__ == "__main__":
     
     #fd_w.write('test')
     fd_w.write(k+'\n')
-    for i in range(0, nVals):     
-        fd_w.write('{:04x},{:04x}\n'.format(i, encrypt(i, k)))
+    for i in range(0, nVals):   
+        #print(i,encrypt(i,k))  
+        fd_w.write('{:016b},{:016b}\n'.format(i, encrypt(i, k)))
     
     fd_w.close()
     
